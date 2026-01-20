@@ -43,7 +43,7 @@ CONFIG = {
     'window': {
         'width': 750,
         'height': 600,
-        'title': 'Переименование файлов по таблице v13.0',
+        'title': 'Переименование файлов по таблице v13.1.0',
         'resizable': False
     },
 
@@ -473,7 +473,7 @@ def setup_logging():
     logger.addHandler(console_handler)
 
     logging.info("="*50)
-    logging.info("File Renamer v13.0 запущен")
+    logging.info("File Renamer v13.1.0 запущен")
     logging.info("="*50)
 
 # ============================================================================
